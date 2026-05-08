@@ -1,0 +1,13 @@
+# Core RAG dependencies
+numpy>=1.26
+scikit-learn>=1.4
+openai>=1.30          # Azure OpenAI SDK (also works with plain openai)
+python-dotenv>=1.0
+loguru>=0.7
+FlagEmbedding>=1.2.10
+
+# Pipecat (voice pipeline) — install the variant matching your transport
+# pipecat-ai[daily]     # Daily.co WebRTC
+# pipecat-ai[twilio]    # Twilio Media Streams
+# pipecat-ai[local]     # Local mic/speaker for testing
+# Full list: https://docs.pipecat.ai/getting-started/installation

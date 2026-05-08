@@ -1,0 +1,16 @@
+# Core Pipecat with Gemini + WebSocket transport
+pipecat-ai[google,silero]>=0.0.40
+
+# FastAPI server
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+websockets>=12.0
+
+# RAG dependencies used by apsagent / rnf_agnet modules
+openai>=1.30.0
+numpy>=1.26
+scikit-learn>=1.4
+
+# Utilities
+python-dotenv>=1.0.0
+loguru>=0.7.0
